@@ -17,3 +17,9 @@ The idea behind it is to use the `useContext` React default API by exposing a ho
 This hook will be creating a context using the `createContext` from the React API lib by called: `CounterContext`.
 
 This context will be used by another React component called `CountProvider` which would be using the `...Provider`, which would be exposing the `values`.
+
+# Last Note
+
+In the last minute was also created the `ThemeSwitcher` to reproduce the light and dark mode of some apps.
+
+It could be being stored in the localStorage if needed.
