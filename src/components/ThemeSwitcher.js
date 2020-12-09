@@ -6,7 +6,7 @@ export default function ThemeSwitcher() {
 
   return (
     <>
-      <h1>Change Theme</h1>
+      <h1>Switch Theme</h1>
       <button onClick={() => setTheme(THEMES.light)}>Light</button>
       <button onClick={() => setTheme(THEMES.dark)}>Dark</button>
     </>
