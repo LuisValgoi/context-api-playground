@@ -1,12 +1,14 @@
 import React from "react";
 import { useCount } from "../context/Count";
 
+import Container from "./Container";
+
 const Counter = () => {
   const { count, setCount } = useCount();
 
   return (
-    <>
-      <h1>Counter</h1>
+    <Container>
+      <h1 style={{ marginTop: "0%" }}>Counter</h1>
       <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
         <span>Value: {count}</span>
         <div style={{ display: "flex", marginLeft: "1%", flexDirection: "column" }}>
@@ -18,7 +20,7 @@ const Counter = () => {
           </button>
         </div>
       </div>
-    </>
+    </Container>
   );
 };
 
